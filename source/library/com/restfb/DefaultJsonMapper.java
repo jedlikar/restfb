@@ -87,7 +87,8 @@ public class DefaultJsonMapper implements JsonMapper {
        */
       @Override
       public boolean handleMappingError(String unmappableJson, Class<?> targetType, Exception e) {
-        return false;
+//jedlikar        return false;
+        return true;
       }
     });
   }
